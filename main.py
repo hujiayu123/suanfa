@@ -6,7 +6,7 @@ import copy
 from pygame.locals import *
 from sys import exit
 from time import ctime, sleep
-WINDOWSIZE = (800, 680)  # 游戏窗口大小
+WINDOWSIZE = (1000, 780)  # 游戏窗口大小
 LINECOLOR = (0, 0, 0)  # 棋盘线的颜色
 TEXTCOLOR = (0, 0, 0)  # 标题文本颜色
 BLACKGROUND = (255, 255, 255)  # 游戏背景颜色
@@ -928,7 +928,7 @@ if __name__ == '__main__':
     Blue ：GoAhead | Human | Demo | Demo2 | '
     Human表示棋手为人类.
     '''
-    Red = 'BetaCat1.0'
+    Red = 'GoAhead'
     Blue = 'Demo'
     filename = os.getcwd() + "/data/" + Red + 'Vs' + Blue
     cnt = 1000
